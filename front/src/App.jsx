@@ -19,7 +19,7 @@ const App = () => {
       return;
     }
     try {
-      const res = await fetch("http://localhost:3000/data", {
+      const res = await fetch("https://basic-pro-todo.onrender.com/data", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -42,7 +42,7 @@ const App = () => {
 
   const getdata = async() => {
     try {
-      const res = await fetch("http://localhost:3000/data", {
+      const res = await fetch("https://basic-pro-todo.onrender.com/data", {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
@@ -63,7 +63,7 @@ const App = () => {
 
   const deldata = async (data) => {
     try {
-      const res = await fetch("http://localhost:3000/data", {
+      const res = await fetch("https://basic-pro-todo.onrender.com/data", {
         method: "Delete",
         headers: {
         "Content-Type": "application/json"
@@ -89,7 +89,7 @@ const App = () => {
       return;
     }
     try {
-      const res=await fetch("http://localhost:3000/data", {
+      const res = await fetch("https://basic-pro-todo.onrender.com/data", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json"
